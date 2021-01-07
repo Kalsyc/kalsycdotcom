@@ -6,6 +6,10 @@
 import { Vue } from 'vue-class-component';
 export default class Header extends Vue {
   
+  sendEmail(): void {
+    console.log("Hi");
+    window.location.assign("mailto:kalsycofficial@gmail.com");
+  }
 }
 
 </script>

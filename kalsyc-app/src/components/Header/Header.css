@@ -16,6 +16,7 @@
   height: inherit;
   width: auto;
   float: right;
+  min-width: 210px;
 }
 
 .link-bar {
@@ -36,6 +37,7 @@
   height: inherit;
   width: auto;
   float: left;
+  min-width: 160px;
 }
 
 img {
@@ -71,6 +73,7 @@ img:hover {
   border: black 3px solid;
   border-radius: 8px 8px 8px 8px;
   height: 40px;
+  min-width: 145px;
 }
 
 #contact-btn:hover {
@@ -81,4 +84,16 @@ img:hover {
 #contact-btn:focus {
   outline: none;
   box-shadow: none;
+}
+
+@media all and (max-width: 992px) {
+  .header {
+    width: 100%;
+  }
+  .icon-bar {
+    min-width: 120px;
+  }
+  #contact-btn {
+    min-width: 0px;
+  }
 }

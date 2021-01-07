@@ -3,16 +3,16 @@
 
 <script lang="ts">
 
-import Header from "@/components/Header/Header.vue";
-import { Options, Vue } from 'vue-class-component';
+  import Header from "@/components/Header/Header.vue";
+  import MainBody from "@/components/MainBody/MainBody.vue";
+  import { Options, Vue } from 'vue-class-component';
 
-@Options({
-  components: {
-    Header
-  }
-})
-export default class MainPage extends Vue {
-  
-}
+  @Options({
+    components: {
+      Header,
+      MainBody
+    }
+  })
+  export default class MainPage extends Vue {}
 
 </script>

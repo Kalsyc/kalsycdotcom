@@ -75,6 +75,7 @@ img:hover {
 
 #contact-btn:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 
 #contact-btn:focus {

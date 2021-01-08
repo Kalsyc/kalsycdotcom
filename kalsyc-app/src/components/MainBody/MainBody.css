@@ -1,3 +1,42 @@
+.name-div {
+  height: auto;
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.title-div {
+  font-size: 0.9rem;
+}
+
+.container {
+  margin: 50px;
+  width: auto;
+  height: auto;
+}
+
+.about-div {
+  justify-content: center;
+  border-radius: 20px;
+}
+
+#display-photo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.display-photo-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+/*
 .body {
   height: 100vh;
 }
@@ -52,3 +91,4 @@
   font-size: 1vw;
   margin: 50px 50px auto 50px;
 }
+*/

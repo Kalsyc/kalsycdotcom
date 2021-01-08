@@ -1,36 +1,94 @@
-.header {
-  background-color: palevioletred;
-  width: 100%;
+.wrapper {
+  display: block;
   height: 60px;
-  font-family: 'Titillium Web', sans-serif;
-  display: flex;
+  background-color: #EFE2BA;
 }
 
-.header-name {
-  width: 25%;
-  height: 100%;
+.header-div {
+  float: left;
+  width: 70%;
+  height: inherit;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 2.25rem;
 }
 
-.name {
-  height: inherit;
-  width: auto;
+.s-menu-wrap {
+  display: block;
   float: right;
-  min-width: 210px;
+  padding: 0px 15px 0px 15px;
+  height: 60px;
+  width: 60px;
+}
+
+.s-img-wrap {
+  height: inherit;
+  width: inherit;
+}
+
+.s-img-wrap img {
+  height: inherit;
+  width: inherit;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  background-color: #ddd5bd;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  transition: bottom 0.5s ease;
+}
+
+.nav-toggle {
+  top: -25%;
+  opacity: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: left;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  width: inherit;
+}
+
+nav ul li {
+  width: inherit;
+  margin: 5px 0px 5px 0px;
+}
+
+nav ul li a, nav ul li span  {
+  width: 95%;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  color: black;
+  font-size: 1.25rem;
+  margin-left: 5px;
+}
+
+nav ul li a:visited {
+  color: black;
+}
+
+/* Tablet/Desktop devices */
+@media screen and (min-width: 1024px) {
+  .s-menu-wrap {
+    display: none;
+  }
+  .header-div {
+    width: 30%;
+  }
 }
 
 .link-bar {
   height: inherit;
-  width: 40%;
-  margin: 0px 60px 0px 60px;
-}
-
-.link {
-  height: inherit;
   width: fit-content;
   float: left;
-
   font-size: 2rem;
+  width: 35%;
 }
 
 .icon-bar {
@@ -40,33 +98,31 @@
   min-width: 160px;
 }
 
-img {
+#icon {
+  height: 60px;
+  width: 60px;
+  margin: 0px 10px 0px 10px;
+  float: left;
+}
+
+#icon img {
   margin: 5px;
   height: 50px;
   width: 50px;
 }
 
-#icon {
-  height: 60px;
-  width: 60px;
-  margin-left: 10px;
-  margin-right: 10px;
-  float: left;
-}
-
-img:hover {
+#icon img:hover {
   opacity: 0.5;
 }
 
-.contact-btn {
+.contact-btn-div {
+  float: right;
   width: auto;
-  height: 100%;
-  padding-top: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
+  height: auto;
+  padding: 10px 3vw 10px 10px;
 }
 
-#contact-btn {
+.contact-btn {
   font-family: 'Titillium Web', sans-serif;
   font-size: 1.5rem;
   background-color: transparent;
@@ -76,24 +132,12 @@ img:hover {
   min-width: 145px;
 }
 
-#contact-btn:hover {
+.contact-btn:hover {
   opacity: 0.5;
   cursor: pointer;
 }
 
-#contact-btn:focus {
+.contact-btn:focus {
   outline: none;
   box-shadow: none;
-}
-
-@media all and (max-width: 992px) {
-  .header {
-    width: 100%;
-  }
-  .icon-bar {
-    min-width: 120px;
-  }
-  #contact-btn {
-    min-width: 0px;
-  }
 }

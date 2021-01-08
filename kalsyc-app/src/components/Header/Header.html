@@ -1,3 +1,42 @@
+<div className="wrapper">
+  <div className="header-div">
+    DARREN SIM
+  </div>
+  <!--Mobile-->
+  <div className="s-menu-wrap">
+    <div className="s-img-wrap" v-on:click="toggleMenu()">
+      <img src="../../assets/images/menu-btn.svg">
+    </div>
+    <nav id="nav-toggle" className="nav-toggle">
+      <ul>
+        <li><a href="https://github.com/Kalsyc">My GitHub</a></li>
+        <li><a href="https://linkedin.com/in/kalsyc">My LinkedIn</a></li>
+        <li><span v-on:click="sendEmail()">Contact Me!</span></li>
+      </ul>
+    </nav>
+  </div>
+  <!--Desktop-->
+  <div className="link-bar">
+  </div>
+  <div className="icon-bar">
+    <div id="icon">
+      <a href="https://github.com/Kalsyc">
+        <img src="../../assets/images/github-logo.png">
+      </a>
+    </div>
+    <div id="icon">
+      <a href="https://linkedin.com/in/kalsyc/">
+        <img src="../../assets/images/linkedin-logo.png">
+      </a>
+    </div>
+  </div>
+  <div className="contact-btn-div">
+    <button className="contact-btn" v-on:click="sendEmail()">Contact Me!</button>
+  </div>
+</div>
+
+
+<!--
 <div className="header">
   <div className="header-name">
     <span className="name">DARREN SIM</span>
@@ -20,3 +59,5 @@
     <button id="contact-btn" v-on:click="sendEmail()">Contact Me!</button>
   </div>
 </div>
+
+-->

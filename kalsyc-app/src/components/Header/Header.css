@@ -73,6 +73,18 @@ nav ul li a:visited {
   color: black;
 }
 
+.link-bar {
+  display: none;
+}
+
+.icon-bar {
+  display: none;
+}
+
+.contact-btn-div {
+  display: none;
+}
+
 /* Tablet/Desktop devices */
 @media screen and (min-width: 1024px) {
   .s-menu-wrap {
@@ -81,63 +93,68 @@ nav ul li a:visited {
   .header-div {
     width: 30%;
   }
+
+  .link-bar {
+    display: block;
+    height: inherit;
+    width: fit-content;
+    float: left;
+    font-size: 2rem;
+    width: 35%;
+  }
+  
+  .icon-bar {
+    display: block;
+    height: inherit;
+    width: auto;
+    float: left;
+    min-width: 160px;
+  }
+  
+  #icon {
+    height: 60px;
+    width: 60px;
+    margin: 0px 10px 0px 10px;
+    float: left;
+  }
+  
+  #icon img {
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+  }
+  
+  #icon img:hover {
+    opacity: 0.5;
+  }
+  
+  .contact-btn-div {
+    display: block;
+    float: right;
+    width: auto;
+    height: auto;
+    padding: 10px 3vw 10px 10px;
+  }
+  
+  .contact-btn {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: black 3px solid;
+    border-radius: 8px 8px 8px 8px;
+    height: 40px;
+    min-width: 145px;
+  }
+  
+  .contact-btn:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  .contact-btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
 }
 
-.link-bar {
-  height: inherit;
-  width: fit-content;
-  float: left;
-  font-size: 2rem;
-  width: 35%;
-}
-
-.icon-bar {
-  height: inherit;
-  width: auto;
-  float: left;
-  min-width: 160px;
-}
-
-#icon {
-  height: 60px;
-  width: 60px;
-  margin: 0px 10px 0px 10px;
-  float: left;
-}
-
-#icon img {
-  margin: 5px;
-  height: 50px;
-  width: 50px;
-}
-
-#icon img:hover {
-  opacity: 0.5;
-}
-
-.contact-btn-div {
-  float: right;
-  width: auto;
-  height: auto;
-  padding: 10px 3vw 10px 10px;
-}
-
-.contact-btn {
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 1.5rem;
-  background-color: transparent;
-  border: black 3px solid;
-  border-radius: 8px 8px 8px 8px;
-  height: 40px;
-  min-width: 145px;
-}
-
-.contact-btn:hover {
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.contact-btn:focus {
-  outline: none;
-  box-shadow: none;
-}

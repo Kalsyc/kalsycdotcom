@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/kalsyc-app/'
+  publicPath: process.env.NODE_ENV === 'production' ? '/kalsycdotcom/' : '/'
 }

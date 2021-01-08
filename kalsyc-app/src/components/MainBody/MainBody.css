@@ -37,6 +37,42 @@
   text-align: justify;
 }
 
+.links-div {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+#resume-btn {
+  font-size: 1.5rem;
+  width: 250px;
+  height: 50px;
+  border: black solid 2px;
+  border-radius: 20px;
+}
+
+#resume-btn a {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-decoration: none;
+}
+
+#resume-btn a:visited {
+  color: black;
+}
+
+#resume-btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 1024px) {
   .name-div {
     font-size: 5rem;
@@ -78,60 +114,3 @@
   }
 
 }
-
-/*
-.body {
-  height: 100vh;
-}
-
-.name {
-  height: auto;
-  font-size: 7rem;
-}
-
-.title {
-  height: auto;
-  font-size: 1.5rem;
-}
-
-.about-div {
-  display: flex;
-  justify-content: center;
-  margin: 5vh;
-  width: 50%;
-  border: 5px solid grey;
-  border-radius: 20px;
-}
-
-.container {
-  height: 60vh;
-  min-height: 350px;
-  min-width: 700px;
-  width: auto;
-  display: flex;
-  justify-content: center;
-}
-
-#display-photo {
-  height: 25vh;
-  width: 25vh;
-  border-radius: 50%;
-}
-
-.display-photo-div {
-  display: flex;
-  align-items: center;
-  margin: auto 50px auto 50px;
-  height: auto;
-  width: auto;
-}
-
-.about {
-  min-height: 150px;
-  min-width: 150px;
-  display: inline;
-  text-align: justify;
-  font-size: 1vw;
-  margin: 50px 50px auto 50px;
-}
-*/

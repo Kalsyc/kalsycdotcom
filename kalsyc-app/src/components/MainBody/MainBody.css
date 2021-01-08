@@ -12,9 +12,10 @@
   margin: 50px;
   width: auto;
   height: auto;
+  display: block;
 }
 
-.about-div {
+.body {
   justify-content: center;
   border-radius: 20px;
 }
@@ -31,9 +32,51 @@
   justify-content: center;
 }
 
-.about {
+.about-text {
   margin-top: 30px;
   text-align: justify;
+}
+
+@media screen and (min-width: 1024px) {
+  .name-div {
+    font-size: 5rem;
+  }
+  
+  .title-div {
+    font-size: 2.5rem;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .body {
+    display: flex;
+  }
+
+  .display-photo-div {
+    margin: 50px;
+  }
+
+  #display-photo {
+    height: 200px;
+    width: 200px;
+  }
+
+  .about-div {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+  }
+
+  .about-text {
+    font-size: 1.75rem;
+    margin-top: 0px;
+    height: auto;
+    width: auto;
+  }
+
 }
 
 /*

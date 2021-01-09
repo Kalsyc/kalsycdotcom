@@ -1,7 +1,7 @@
 .wrapper {
   display: block;
   height: 60px;
-  background-color: #EFE2BA;
+  background-color: #efe2ba;
 }
 
 .header-div {
@@ -59,7 +59,8 @@ nav ul li {
   margin: 5px 0px 5px 0px;
 }
 
-nav ul li a, nav ul li span  {
+nav ul li a,
+nav ul li span {
   width: 95%;
   display: inline-block;
   text-decoration: none;
@@ -102,7 +103,7 @@ nav ul li a:visited {
     font-size: 2rem;
     width: 35%;
   }
-  
+
   .icon-bar {
     display: block;
     height: inherit;
@@ -110,24 +111,24 @@ nav ul li a:visited {
     float: left;
     min-width: 160px;
   }
-  
+
   #icon {
     height: 60px;
     width: 60px;
     margin: 0px 10px 0px 10px;
     float: left;
   }
-  
+
   #icon img {
     margin: 5px;
     height: 50px;
     width: 50px;
   }
-  
+
   #icon img:hover {
     opacity: 0.5;
   }
-  
+
   .contact-btn-div {
     display: block;
     float: right;
@@ -135,7 +136,7 @@ nav ul li a:visited {
     height: auto;
     padding: 10px 3vw 10px 10px;
   }
-  
+
   .contact-btn {
     font-family: 'Titillium Web', sans-serif;
     font-size: 1.5rem;
@@ -145,16 +146,14 @@ nav ul li a:visited {
     height: 40px;
     min-width: 145px;
   }
-  
+
   .contact-btn:hover {
     opacity: 0.5;
     cursor: pointer;
   }
-  
+
   .contact-btn:focus {
     outline: none;
     box-shadow: none;
   }
-  
 }
-

@@ -3,16 +3,17 @@
 
 <script lang="ts">
 
-  import Header from "@/components/Header/Header.vue";
+  import MainHeader from "@/components/MainHeader/MainHeader.vue";
   import MainBody from "@/components/MainBody/MainBody.vue";
-  import { Options, Vue } from 'vue-class-component';
+  import MainGrid from "@/components/MainGrid/MainGrid.vue";
 
-  @Options({
+  export default {
+    name: 'main-page',
     components: {
-      Header,
-      MainBody
+      MainHeader,
+      MainBody,
+      MainGrid
     }
-  })
-  export default class MainPage extends Vue {}
+  }
 
 </script>

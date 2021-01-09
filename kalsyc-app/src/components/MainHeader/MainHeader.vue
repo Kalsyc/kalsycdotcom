@@ -1,5 +1,5 @@
-<style scoped src="./Header.css"></style>
-<template src="./Header.html"></template>
+<style scoped src="./MainHeader.css"></style>
+<template src="./MainHeader.html"></template>
 
 <script lang="ts">
 
@@ -15,7 +15,7 @@
   }
 
   export default {
-    name: "header",
+    name: "main-header",
     setup() {
       const sendEmail: Function = useSendEmail;
       const toggleMenu: Function = useToggleMenu;

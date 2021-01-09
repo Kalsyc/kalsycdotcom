@@ -3,14 +3,14 @@
 
 <script lang="ts">
 
-  import Header from "@/components/Header/Header.vue";
+  import MainHeader from "@/components/MainHeader/MainHeader.vue";
   import MainBody from "@/components/MainBody/MainBody.vue";
   import MainGrid from "@/components/MainGrid/MainGrid.vue";
 
   export default {
     name: 'main-page',
     components: {
-      Header,
+      MainHeader,
       MainBody,
       MainGrid
     }

@@ -2,9 +2,7 @@
 <template src="./MainBody.html"></template>
 
 <script lang="ts">
-  
-  export default {
-    name: "main-body"
-  }
-
+export default {
+  name: 'main-body',
+};
 </script>

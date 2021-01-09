@@ -3,21 +3,24 @@
 
 <script lang="ts">
 
-  import { Vue } from 'vue-class-component';
+  function useSendEmail(): void {
+    window.location.assign("mailto:kalsycofficial@gmail.com");
+  }
 
-  export default class Header extends Vue {
-  
-    sendEmail(): void {
-      window.location.assign("mailto:kalsycofficial@gmail.com");
-    }
-
-    toggleMenu(): void {
-      const element: HTMLElement | null = document.getElementById("nav-toggle");
+  function useToggleMenu(): void {
+          const element: HTMLElement | null = document.getElementById("nav-toggle");
       if (element) {
         element.classList.toggle("nav-toggle");
       }
-    }
+  }
 
+  export default {
+    name: "header",
+    setup() {
+      const sendEmail: Function = useSendEmail;
+      const toggleMenu: Function = useToggleMenu;
+      return { sendEmail, toggleMenu };
+    }
   }
 
 </script>

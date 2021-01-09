@@ -5,14 +5,15 @@
 
   import Header from "@/components/Header/Header.vue";
   import MainBody from "@/components/MainBody/MainBody.vue";
-  import { Options, Vue } from 'vue-class-component';
+  import MainGrid from "@/components/MainGrid/MainGrid.vue";
 
-  @Options({
+  export default {
+    name: 'main-page',
     components: {
       Header,
-      MainBody
+      MainBody,
+      MainGrid
     }
-  })
-  export default class MainPage extends Vue {}
+  }
 
 </script>

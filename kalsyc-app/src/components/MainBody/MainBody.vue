@@ -2,11 +2,9 @@
 <template src="./MainBody.html"></template>
 
 <script lang="ts">
-
-  import { Vue } from 'vue-class-component';
   
-  export default class MainBody extends Vue {
-    
+  export default {
+    name: "main-body"
   }
 
 </script>

@@ -1,6 +1,9 @@
 <div className="wrapper">
   <div className="s-wrapper">
     <span id="title">{{ projectData.name }}</span>
+    <div>
+      <img id="img" v-bind:src="projectData.img" />
+    </div>
     <div id="desc">
       <div v-for="s in projectData.desc">
         {{ s }}
@@ -19,7 +22,7 @@
         Source Code
       </div>
       <div id="btn" @click="navigate(projectData.link)">
-        See Project
+        View Project
       </div>
     </div>
   </div>

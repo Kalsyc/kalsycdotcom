@@ -57,6 +57,30 @@
   border-radius: 10px;
 }
 
+.see-more-btn-bar {
+  width: auto;
+  height: auto;
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#see-more-btn {
+  background-color: #ddd5bd;
+  padding: 5px;
+  margin: 5px;
+  height: 25px;
+  width: 150px;
+  cursor: pointer;
+  border: black solid 2px;
+  border-radius: 10px;
+}
+
+#img {
+  width: 250px;
+  height: 150px;
+}
+
 #btn:hover {
   opacity: 0.5;
 }
@@ -64,5 +88,10 @@
 @media screen and (min-width: 1024px) {
   .s-wrapper {
     max-width: 500px;
+  }
+
+  #img {
+    width: 400px;
+    height: 250px;
   }
 }

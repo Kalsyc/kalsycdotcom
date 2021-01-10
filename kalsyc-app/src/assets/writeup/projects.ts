@@ -10,7 +10,7 @@ export interface ProjectInterface {
 export const PROJECTS: ProjectInterface[] = [
   {
     name: 'Project Kampong',
-    img: '',
+    img: 'https://kalsycdotcom.s3-ap-southeast-1.amazonaws.com/project-kampong.jpg',
     desc: [
       'An online collaborative platform that serves as a digital aggregator to \
       effectively map assets across communities and establish a data and documentation \
@@ -23,7 +23,7 @@ export const PROJECTS: ProjectInterface[] = [
   },
   {
     name: 'SafeSpace',
-    img: '',
+    img: 'https://kalsycdotcom.s3-ap-southeast-1.amazonaws.com/safespace.png',
     desc: [
       'A VR Mental Health Simulator and Meditation guide that aims to enhance awareness and understanding \
       of anxiety disorders through gameplay.',
@@ -37,7 +37,7 @@ export const PROJECTS: ProjectInterface[] = [
   },
   {
     name: 'Digital Kampung',
-    img: '',
+    img: 'https://kalsycdotcom.s3-ap-southeast-1.amazonaws.com/digital-kampung.jpg',
     desc: [
       'Part of Google Developer Student Club NUS (DSCNUS). Worked on a project that aims \
       to connect 20,000 SMEs under the Federation of Merchants Association Singapore (FMAS) and consumers.',

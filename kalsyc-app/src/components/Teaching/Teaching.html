@@ -1,0 +1,15 @@
+<div className="wrapper">
+  <div className="s-wrapper">
+    <span id="module">Module: {{ teachingData.module }}</span>
+    <div id="date">
+      {{ teachingData.date }}
+    </div>
+    <div id="desc">
+      <ul>
+        <div v-for="s in teachingData.desc">
+          <li>{{s}}</li>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>

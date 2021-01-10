@@ -2,7 +2,11 @@
   <div className="s-wrapper">
     <span id="title">{{ projectData.name }}</span>
     <div id="desc">
-      {{ projectData.desc }}
+      <div v-for="s in projectData.desc">
+        {{ s }}
+        <br />
+        <br />
+      </div>
     </div>
     <div id="tech-stack-title">
       Tech Stack used:

@@ -1,0 +1,29 @@
+<div className="wrapper">
+  <div className="s-wrapper">
+    <span id="title">{{ projectData.name }}</span>
+    <div>
+      <img id="img" v-bind:src="projectData.img" />
+    </div>
+    <div id="desc">
+      <div v-for="s in projectData.desc">
+        {{ s }}
+        <br />
+        <br />
+      </div>
+    </div>
+    <div id="tech-stack-title">
+      Tech Stack used:
+    </div>
+    <div id="tech-stack">
+      {{ projectData.techStack }}
+    </div>
+    <div className="btn-bar">
+      <div id="btn" @click="navigate(projectData.src)">
+        Source Code
+      </div>
+      <div id="btn" @click="navigate(projectData.link)">
+        View Project
+      </div>
+    </div>
+  </div>
+</div>

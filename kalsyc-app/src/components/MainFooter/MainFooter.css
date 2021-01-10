@@ -1,0 +1,33 @@
+.footer {
+  background-color: #ddd5bd;
+  height: auto;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer-text {
+  margin: 5px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#link {
+  margin: 5px;
+}
+
+a {
+  cursor: pointer;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  opacity: 0.5;
+}

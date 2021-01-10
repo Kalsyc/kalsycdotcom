@@ -1,0 +1,117 @@
+.wrapper {
+  height: auto;
+  width: auto;
+  margin: 20px auto 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.s-wrapper {
+  height: inherit;
+  width: inherit;
+  min-width: 250px;
+  min-height: 100px;
+  background-color: ivory;
+  border: black solid 2px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#company {
+  margin: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#role {
+  font-size: 1.25rem;
+  text-align: center;
+  margin: 10px;
+}
+
+#date {
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px;
+}
+
+#desc {
+  font-size: 1rem;
+  text-align: justify;
+  margin: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .s-wrapper {
+    margin: auto 100px auto 100px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .s-wrapper {
+    margin: auto 200px auto 200px;
+  }
+
+  #company {
+    font-size: 2rem;
+    margin: 20px;
+  }
+
+  #role {
+    font-size: 1.5rem;
+  }
+
+  #date {
+    font-size: 1.25rem;
+  }
+
+  #desc {
+    margin: 45px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .s-wrapper {
+    margin: auto 400px auto 400px;
+  }
+
+  #company {
+    font-size: 2.5rem;
+    margin: 30px;
+  }
+
+  #role {
+    font-size: 2rem;
+  }
+
+  #date {
+    font-size: 1.5rem;
+  }
+
+  #desc {
+    margin: 45px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .s-wrapper {
+    margin: auto 500px auto 500px;
+  }
+
+  #company {
+    margin: 30px;
+    font-size: 2.5rem;
+  }
+
+  #role {
+    font-size: 2rem;
+  }
+
+  #date {
+    font-size: 1.5rem;
+  }
+
+  #desc {
+    margin: 45px;
+  }
+}

@@ -2,7 +2,16 @@
 <template src="./Project.html"></template>
 
 <script lang="ts">
-export default {
-  name: 'project',
-};
+  function useNavigate(url: string): void {
+    window.location.href = url;
+  }
+
+  export default {
+    name: 'project',
+    props: ['projectData'],
+    setup() {
+      const navigate: Function = useNavigate;
+      return { navigate };
+    },
+  };
 </script>

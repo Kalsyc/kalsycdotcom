@@ -1,5 +1,40 @@
 <div className="wrapper">
-  <div className="dropdown-wrapper">
-    Hello
+  <div className="s-wrapper" id="slidein">
+    <div className="s-internship-div">
+      <div className="s-title">
+        Internship Experience
+      </div>
+      <div id="internship-grid">
+        <div v-for="internship in internships">
+          <Internship :internshipData="internship" />
+        </div>
+      </div>
+    </div>
+    <div className="s-projects-div">
+      <div className="s-title">
+        Projects
+      </div>
+      <div id="project-grid">
+        <div v-for="project in projects">
+          <Project :projectData="project" />
+        </div>
+      </div>
+    </div>
+    <div className="s-teaching-div">
+      <div className="s-title">
+        Teaching Experience
+      </div>
+      <div id="teaching-grid">
+        <div v-for="teaching in teachings">
+          <Teaching :teachingData="teaching" />
+        </div>
+      </div>
+    </div>
+    <div className="s-skills-div">
+      <div className="s-title">
+        Skills (To be updated)
+      </div>
+      <div id="skills-grid"></div>
+    </div>
   </div>
 </div>

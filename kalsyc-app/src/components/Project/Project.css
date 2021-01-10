@@ -1,0 +1,97 @@
+.wrapper {
+  height: auto;
+  width: auto;
+  margin: 20px auto 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.s-wrapper {
+  height: inherit;
+  width: inherit;
+  min-width: 250px;
+  min-height: 100px;
+  background-color: ivory;
+  border: black solid 2px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.btn-bar {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#title {
+  font-size: 1.25rem;
+}
+
+#desc {
+  font-size: 1rem;
+  margin: 20px;
+  text-align: justify;
+}
+
+#tech-stack-title {
+  font-size: 1.15rem;
+  margin: 5px;
+  text-align: center;
+}
+
+#tech-stack {
+  font-size: 1rem;
+  margin: 20px;
+  text-align: center;
+}
+
+#btn {
+  background-color: #ddd5bd;
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+  width: auto;
+  cursor: pointer;
+  border: black solid 2px;
+  border-radius: 10px;
+}
+
+.see-more-btn-bar {
+  width: auto;
+  height: auto;
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#see-more-btn {
+  background-color: #ddd5bd;
+  padding: 5px;
+  margin: 5px;
+  height: 25px;
+  width: 150px;
+  cursor: pointer;
+  border: black solid 2px;
+  border-radius: 10px;
+}
+
+#img {
+  width: 250px;
+  height: 150px;
+}
+
+#btn:hover {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 1024px) {
+  .s-wrapper {
+    max-width: 500px;
+  }
+
+  #img {
+    width: 400px;
+    height: 250px;
+  }
+}

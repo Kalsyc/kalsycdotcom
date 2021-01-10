@@ -5,6 +5,7 @@
   import MainHeader from '@/components/MainHeader/MainHeader.vue';
   import MainBody from '@/components/MainBody/MainBody.vue';
   import MainGrid from '@/components/MainGrid/MainGrid.vue';
+  import MainFooter from '@/components/MainFooter/MainFooter.vue';
 
   export default {
     name: 'main-page',
@@ -12,6 +13,7 @@
       MainHeader,
       MainBody,
       MainGrid,
+      MainFooter,
     },
   };
 </script>

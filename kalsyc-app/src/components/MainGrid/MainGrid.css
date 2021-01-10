@@ -1,6 +1,30 @@
 .wrapper {
   background-color: #efe2ba;
+  min-height: 200px;
 }
 
-.dropdown-wrapper {
+.s-wrapper {
+  display: block;
+  height: auto;
+  width: inherit;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.s-projects-div {
+  margin: 10px auto 10px auto;
+  background-color: #ddd5bd;
+  border: solid black 2px;
+  border-radius: 5px 5px 5px 5px;
+  height: auto;
+  width: 70%;
+}
+
+.s-experiences-div {
+  margin: 10px auto 10px auto;
+  background-color: #ddd5bd;
+  border: solid black 2px;
+  border-radius: 5px 5px 5px 5px;
+  height: auto;
+  width: 70%;
 }

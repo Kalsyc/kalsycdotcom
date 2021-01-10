@@ -1,10 +1,17 @@
 <div className="wrapper">
   <div className="s-wrapper">
     <div className="s-projects-div">
-      Projects
+      <div className="s-projects-title">
+        Projects
+      </div>
+      <div className="s-projects-grid" v-for="project in projects">
+        <Project :projectData="project" />
+      </div>
     </div>
     <div className="s-experiences-div">
-      Experiences
+      <div className="s-experiences-title">
+        Experiences
+      </div>
     </div>
   </div>
 </div>

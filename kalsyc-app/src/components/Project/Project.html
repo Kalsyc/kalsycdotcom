@@ -1,5 +1,22 @@
 <div className="wrapper">
   <div className="s-wrapper">
-    Testing
+    <span id="title">{{ projectData.name }}</span>
+    <div id="desc">
+      {{ projectData.desc }}
+    </div>
+    <div id="tech-stack-title">
+      Tech Stack used:
+    </div>
+    <div id="tech-stack">
+      {{ projectData.techStack }}
+    </div>
+    <div className="btn-bar">
+      <div id="btn" @click="navigate(projectData.src)">
+        Source Code
+      </div>
+      <div id="btn" @click="navigate(projectData.link)">
+        See Project
+      </div>
+    </div>
   </div>
 </div>

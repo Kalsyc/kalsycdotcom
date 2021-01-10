@@ -2,14 +2,15 @@
 <template src="./MainGrid.html"></template>
 
 <script lang="ts">
-  import { Ref, ref } from 'vue';
   import Project from '../Project/Project.vue';
+  import { PROJECTS, ProjectInterface } from '../../assets/writeup/projects';
 
   export default {
     name: 'main-grid',
     components: { Project },
     setup() {
-      const currentToggle: Ref<string> = ref<string>('projects');
+      const projects: ProjectInterface[] = PROJECTS;
+      return { projects };
     },
   };
 </script>

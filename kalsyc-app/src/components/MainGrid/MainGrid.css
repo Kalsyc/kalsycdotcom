@@ -11,7 +11,7 @@
   padding-bottom: 20px;
 }
 
-.s-projects-div {
+.s-projects-title {
   margin: 10px auto 10px auto;
   background-color: #ddd5bd;
   border: solid black 2px;
@@ -20,7 +20,7 @@
   width: 70%;
 }
 
-.s-experiences-div {
+.s-experiences-title {
   margin: 10px auto 10px auto;
   background-color: #ddd5bd;
   border: solid black 2px;

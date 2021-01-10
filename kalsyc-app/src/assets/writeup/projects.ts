@@ -1,11 +1,13 @@
-interface Project {
+export interface ProjectInterface {
   name: string;
   img: string;
   desc: string;
   techStack: string;
+  link: string;
+  src: string;
 }
 
-export const PROJECTS: Project[] = [
+export const PROJECTS: ProjectInterface[] = [
   {
     name: 'Project Kampong',
     img: '',
@@ -15,16 +17,20 @@ export const PROJECTS: Project[] = [
       center for the Social Sector to provide clarity in needs, resources and gaps.\
       ',
     techStack: 'Angular, NodeJS, Express and PostgreSQL',
+    link: 'https://kampong.app/home',
+    src: 'https://github.com/Project-Kampong',
   },
   {
     name: 'SafeSpace',
-    img:
+    img: '',
+    desc:
       'A VR Mental Health Simulator and Meditation guide that aims to enhance awareness and understanding \
       of anxiety disorders through gameplay. Voted 2nd best project in iSTePS AY19/20 S2: CS4240 \
       Interaction Design for Virtual & Augmented Reality Showcase out of 10 teams.\
-    ',
-    desc: '',
+      ',
     techStack: 'C# with Unity Game Engine, using TobiiXR SDK, SRanpial SDK and SRWorks SDK',
+    link: 'https://isteps.comp.nus.edu.sg/event/cs4240/module/AY2019-20+Semester_2+Task_1/project/7',
+    src: 'https://github.com/Kalsyc/SafeSpace',
   },
   {
     name: 'Digital Kampung',
@@ -36,5 +42,7 @@ export const PROJECTS: Project[] = [
       users to check hawker food prices, find their way to the most popular or nearby hawker and leave reviews.\
       ",
     techStack: 'React, NodeJS, Express and PostgreSQL',
+    link: 'https://github.com/DigitalKampong',
+    src: 'https://github.com/DigitalKampong',
   },
 ];

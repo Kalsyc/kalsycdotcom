@@ -1,19 +1,19 @@
-interface Experience {
+interface ExperienceInterface {
   company: string;
   date: string;
   desc: string;
 }
 
-interface Internship extends Experience {
+export interface InternshipInterface extends ExperienceInterface {
   role: string;
   img: string;
 }
 
-interface Teaching extends Experience {
+export interface TeachingInterface extends ExperienceInterface {
   module: string;
 }
 
-export const INTERNSHIPS: Internship[] = [
+export const INTERNSHIPS: InternshipInterface[] = [
   {
     company: 'WaveScan Technologies Pte. Ltd.',
     role: 'UI/UX Developer Intern',
@@ -28,7 +28,7 @@ export const INTERNSHIPS: Internship[] = [
   },
 ];
 
-export const TEACHINGS: Teaching[] = [
+export const TEACHINGS: TeachingInterface[] = [
   {
     company: 'National University of Singapore (NUS)',
     date: 'Jan 2019 - Present',

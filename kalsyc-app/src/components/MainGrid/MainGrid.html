@@ -4,8 +4,10 @@
       <div className="s-projects-title">
         Projects
       </div>
-      <div className="s-projects-grid" v-for="project in projects">
-        <Project :projectData="project" />
+      <div className="s-projects-grid">
+        <div v-for="project in projects">
+          <Project :projectData="project" />
+        </div>
       </div>
     </div>
     <div className="s-experiences-div">

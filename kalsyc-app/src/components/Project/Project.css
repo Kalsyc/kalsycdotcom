@@ -14,6 +14,7 @@
   background-color: ivory;
   border: black solid 2px;
   border-radius: 10px;
+  margin: 10px;
 }
 
 .btn-bar {
@@ -34,7 +35,7 @@
 }
 
 #tech-stack-title {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin: 5px;
   text-align: center;
 }
@@ -58,4 +59,10 @@
 
 #btn:hover {
   opacity: 0.5;
+}
+
+@media screen and (min-width: 1024px) {
+  .s-wrapper {
+    max-width: 500px;
+  }
 }

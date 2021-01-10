@@ -2,8 +2,6 @@
 <template src="./Project.html"></template>
 
 <script lang="ts">
-  import { ProjectInterface } from '@/assets/writeup/projects';
-
   function useNavigate(url: string): void {
     window.location.href = url;
   }
